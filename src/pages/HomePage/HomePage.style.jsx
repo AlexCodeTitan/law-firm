@@ -3,9 +3,7 @@ import styled from "styled-components";
 export const HomeWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 100vw;
-  height: 100vh;
-  padding: 0.8rem;
+  height: calc(100vh - 1.6rem);
 `;
 
 export const Temp = styled.div`

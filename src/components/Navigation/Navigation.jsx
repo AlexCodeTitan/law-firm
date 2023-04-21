@@ -1,15 +1,16 @@
 import React from "react";
 import { NavContainer } from "./Navigation.style";
+import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
     <NavContainer>
       <div>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/services">Services</Link>
       </div>
-      <a href="#">Contact Us</a>
+      <Link to="/contact">Contact Us</Link>
     </NavContainer>
   );
 }
